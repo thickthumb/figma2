@@ -1,5 +1,5 @@
 .container {
-    border: 2px solid;background: #F5F8FA;
+    border: 2px solid;background: hsl(204, 33%, 97%);
    /* width: 1140px; */
    /* height: 1170px; */
    width: 90rem;
@@ -97,21 +97,26 @@ header {
     background-color: hsl(216, 16%, 94%,1);
 }
 button {
+    margin-block-start: 2.44rem;
+    margin-block-end: 1.5rem;
     width: 30.1975rem;
     height: 3.25rem;
     background-color: hsl(173, 96%, 28%,1);
 }
 
-img- {
-    width: 5.75rem;
-    height: 1.125631rem;
-    position: relative;
-    margin-inline-start: 189px;
-}
-footer {
+
+#footer {
+    color: #636B6F;
+text-align: center;
+font-family: Lato;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     width: 54.1875rem;
     margin: auto;
-    margin-block-start: 10px;
+    position: relative;
+    top: -10.06rem;
 }
     
 
@@ -128,18 +133,54 @@ footer {
     margin-block-start: 11.63rem;
     margin-block-end: 11.81rem;
     /* border: 2px solid red; */
+    margin-inline-start: 16.38rem;
     display: inline-block;
     width: 55.75rem;
     height: 49.6875rem;
-    background-color: hsla(0, 0, 100%, 1);
+    background-color: rgb(255, 255, 255);
+
+
+
+    & img {
+        margin-block-start: 2.12rem;
+        /* margin-block-end: 2.93rem; */
+        margin-inline-start: 15.38rem;
+        width: 5.75rem;
+        height: 1.125631rem;
+        
+        /* margin-inline-start: 189px; */
+    }
+ & p {
+    padding-inline-start: 2.88rem;
+        color: #646E7A;
+font-family: Lato;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.00094rem;
+    }
 
 }
+.last, #lname {
+    position: relative;
+    top: -3.7rem; left: 16.2rem;
+}
+.email, #email {
+    position: relative;
+    top: -1.7rem;
+}
+
+#card {
+    margin-block-end: 2.56rem;
+}
+
 .box2 {
     position: relative;
-    top: -64.9rem; left: 36.35rem;
+    top: -64.1rem; left: 55.65rem;
     width: 19.5rem;
     height: 49.6895rem;
-    background-color: blue;
+    background-color: hsl(204, 84%, 41%);
     
     & h4 {
         padding-inline-start: 2.88rem;
@@ -164,12 +205,9 @@ footer {
     }
     
 }
-
-
-    
 p {
     padding-inline-start: 2.88rem;
-        color: #FFF;
+        color: #ffffff;
 font-family: Lato;
 font-size: 1.125rem;
 font-style: normal;
@@ -177,6 +215,9 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: -0.00094rem;
     }
+
+
+    
 
 .afterlist {
     margin-block-start: 2.38rem;
@@ -222,6 +263,29 @@ line-height: 1.5rem; /* 133.333% */
 letter-spacing: -0.00056rem;
     }
  }
+ #brad {
+    
+    /* height: 2.5rem; */
+    /* width: 2.5rem; */
+    flex-shrink: 0;
+    
+    
+}
+    
+span {
+    width: 4.75rem;
+    height: 1.1875rem;
+        margin-inline-start: 0.88rem;
+        margin-block-end: 9.63rem;
+        color: #FFF;
+font-family: Lato;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.0005rem;
+        
+    }
 
    
     
