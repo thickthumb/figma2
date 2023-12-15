@@ -121,12 +121,7 @@ line-height: normal;
     
 
 
-.wrapper{
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* margin: 0 auto; */
-    
-}
+
 .box1 {padding-inline-start: 3.0rem;
     margin-block-start: 16.38rem;
     margin-inline-end: 17.87rem;
@@ -138,6 +133,21 @@ line-height: normal;
     width: 55.75rem;
     height: 49.6875rem;
     background-color: rgb(255, 255, 255);
+
+
+
+    & h4::first-letter{
+        border: 1px solid blue;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        color: blue;
+        padding: 2px 5px;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* margin: 0 auto; */
+        
+    }
 
 
 
