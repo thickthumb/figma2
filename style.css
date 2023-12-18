@@ -169,7 +169,22 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: -0.00094rem;
+ 
+
+span.line {
+    color: #646E7A;
+font-family: Lato;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.00094rem;
+border-bottom: 2px solid;
+
     }
+
+}
+   
 
 }
 .last, #lname {
